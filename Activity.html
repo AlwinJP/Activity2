@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Survey Form</title>
+</head>
+<body>
+	
+	<div class="form">
+	<h2 align="center">Survey Form</h2>
+	<form>
+		<div class="Sections" style="background-color: khaki;"><p>Section 1</p></div>
+		
+			 <label><strong>1.1</strong> Which  of the following services do you use?</label>
+			<div id="choice-1">
+				<input type="checkbox" name="Service 1"><label>Service 1</label>
+				<input type="checkbox" name="Service 2"><label>Service 2</label><br>
+				<input type="checkbox" name="Service 3"><label>Service 3</label>
+				<input type="checkbox" name="Service 4"><label>Service 4</label><br>
+				<input type="checkbox" name="Other"><label>Other</label>
+				<input type="text" name="Other">
+			</div>
+			<br>
+			<lable><strong>1.2</strong> How would you rate our services with our service in term of...?</label>
+			<table id="table" border="1">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Excellent</th>
+						<th>Very Good</th>
+						<th>Good</th>
+						<th>Fair</th>
+						<th>Poor</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr align="center">
+						<td for="q1">Your Overall Experience:</td>
+						<td><input type="radio" value="Excellent" name="q1"><br></td>
+						<td><input type="radio" value="Very Good" name="q1"><br></td>
+						<td><input type="radio" value="Good" name="q1"><br></td>
+						<td><input type="radio" value="Fair" name="q1"><br></td>
+						<td><input type="radio" value="Poor" name="q1"><br></td>
+					</tr>
+					<tr align="center">
+						<td for="q2">The Value of our service:</td>
+						<td><input type="radio" value="Excellent" name="q2"><br></td>
+						<td><input type="radio" value="Very Good" name="q2"><br></td>
+						<td><input type="radio" value="Good" name="q2"><br></td>
+						<td><input type="radio" value="Fair" name="q2"><br></td>
+						<td><input type="radio" value="Poor" name="q2"><br></td>
+					</tr>
+					<tr align="center">
+						<td for="q3">Promptness of our service:</td>
+						<td><input type="radio" value="Excellent" name="q3"><br></td>
+						<td><input type="radio" value="Very Good" name="q3"><br></td>
+						<td><input type="radio" value="Good" name="q3"><br></td>
+						<td><input type="radio" value="Fair" name="q3"><br></td>
+						<td><input type="radio" value="Poor" name="q3"><br></td>
+					</tr>
+					<tr align="center">
+						<td for="q4">The Courtesy of our staff:</td>
+						<td><input type="radio" value="Excellent" name="q4"><br></td>
+						<td><input type="radio" value="Very Good" name="q4"><br></td>
+						<td><input type="radio" value="Good" name="q4"><br></td>
+						<td><input type="radio" value="Fair" name="q4"><br></td>
+						<td><input type="radio" value="Poor" name="q4"><br></td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<label><strong>1.3</strong> Any comments or suggestions</label>
+			<input id="p4" type="textarea">
+			<br>
+		
+		<div class="Sections" style="background-color: khaki;"><p>Section 2</p></div>
+
+		<label><strong>2.1</strong> How may we reach you? (<cite>optional<cite>)</label><br>
+		<div class="contents-in"><label for="name">Your Name:</label>
+			<input  id="name" type="text" name="name">
+			<br>
+			<label for="phone">Phone:<t></label>
+			<input id="phone" type="tel" name="tel">
+			<br>
+			<label for="email">Email:</label>
+			<input id="email" type="email" name="email">
+		</div>
+
+		<br>
+		<div id="btns">
+			<input type="Submit" value="Submit">
+			<input type="Reset" value="Reset">
+		</div>
+		
+	</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.body {
+	background-color: azure;
+}
+
+.form {
+	border: 5 solid;
+	margin: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.contents-in{
+	margin-left: 20px;
+}
+
+#choice-1, #table, #p4 {
+	margin-left: 20px;
+}
+
+#btns {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+#name, #phone, #email{
+	width: 300px;
+
+}
+
+#phone{
+	margin-left: 33px;
+}
+
+#email {
+	margin-left: 35px;
+}
+
+#p4 {
+	width: 400px;
+	height: 100px;
+}
